@@ -6,15 +6,6 @@ import numpy as np
 import yfinance as yf
 
 
-'''
-EXAMPLES I SAVE / ESEMPI CHE MI SALVO:
-GOOG - Google
-AAPL - Apple
-MSFT - Microsoft
-AMZN - Amazon
-NVDA - NVIDIA
-'''
-
 nAnni = 5
 periodo = str(nAnni) + "y"
 ticker = "GOOG"

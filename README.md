@@ -30,11 +30,45 @@ ticker = "GOOG"  # Stock symbol
 
 ### 💹 Available Tickers
 
+#### 🖥️ Tech Companies
+- AAPL - Apple Inc.
 - GOOG - Google
-- AAPL - Apple
 - MSFT - Microsoft
 - AMZN - Amazon
 - NVDA - NVIDIA
+- INTC - Intel Corporation
+- PLTR - Palantir Technologies Inc.
+- SMCI - Super Micro Computer, Inc.
+- SOUN - SoundHound AI, Inc.
+
+#### 🚗 Automotive & Transportation
+- TSLA - Tesla, Inc.
+- F - Ford Motor Company
+- LCID - Lucid Group, Inc.
+- AAL - American Airlines Group Inc.
+- NIO - NIO Inc.
+
+#### 🏦 Financial Services
+- HOOD - Robinhood Markets, Inc.
+- NU - Nu Holdings Ltd.
+- BBD - Banco Bradesco S.A.
+
+#### ⚡ Quantum Computing
+- QBTS - D-Wave Quantum Inc.
+- RGTI - Rigetti Computing, Inc.
+- IONQ - IonQ, Inc.
+
+#### 🌍 Mining & Resources
+- BTG - B2Gold Corp.
+- VALE - Vale S.A.
+- PSLV - Sprott Physical Silver Trust
+- RIG - Transocean Ltd.
+
+#### 🍺 Consumer Goods
+- ABEV - Ambev S.A.
+
+#### 🔐 Cryptocurrency Related
+- MARA - MARA Holdings, Inc.
 
 ### ▶️ Running the Application
 
@@ -106,14 +140,47 @@ pip install numpy
 nAnni = 5  # Numero di anni da analizzare
 ticker = "GOOG"  # Simbolo dell'azione
 ```
-
 ### 💹 Ticker Disponibili
 
+#### 🖥️ Aziende Tecnologiche
+- AAPL - Apple Inc.
 - GOOG - Google
-- AAPL - Apple
 - MSFT - Microsoft
 - AMZN - Amazon
 - NVDA - NVIDIA
+- INTC - Intel Corporation
+- PLTR - Palantir Technologies Inc.
+- SMCI - Super Micro Computer, Inc.
+- SOUN - SoundHound AI, Inc.
+
+#### 🚗 Automotive e Trasporti
+- TSLA - Tesla, Inc.
+- F - Ford Motor Company
+- LCID - Lucid Group, Inc.
+- AAL - American Airlines Group Inc.
+- NIO - NIO Inc.
+
+#### 🏦 Servizi Finanziari
+- HOOD - Robinhood Markets, Inc.
+- NU - Nu Holdings Ltd.
+- BBD - Banco Bradesco S.A.
+
+#### ⚡ Computazione Quantistica
+- QBTS - D-Wave Quantum Inc.
+- RGTI - Rigetti Computing, Inc.
+- IONQ - IonQ, Inc.
+
+#### 🌍 Mineraria e Risorse
+- BTG - B2Gold Corp.
+- VALE - Vale S.A.
+- PSLV - Sprott Physical Silver Trust
+- RIG - Transocean Ltd.
+
+#### 🍺 Beni di Consumo
+- ABEV - Ambev S.A.
+
+#### 🔐 Correlati alle Criptovalute
+- MARA - MARA Holdings, Inc.
 
 ### ▶️ Esecuzione dell'Applicazione
 
