@@ -6,18 +6,18 @@ import numpy as np
 import yfinance as yf
 
 
-nAnni = 5
-periodo = str(nAnni) + "y"
+numYears = 5
+period = str(numYears) + "y"
 ticker = "GOOG"
-data = yf.download(ticker, period=periodo)
+date = yf.download(ticker, period=period)
 
 # Creation of associative vectors with correct values
 # Creazione dei vettori associativi con valori corretti
-close_prices = {date.strftime("%Y-%m-%d"): str(row["Close"].item()) for date, row in data.iterrows()}
-high_prices = {date.strftime("%Y-%m-%d"): str(row["High"].item()) for date, row in data.iterrows()}
-low_prices = {date.strftime("%Y-%m-%d"): str(row["Low"].item()) for date, row in data.iterrows()}
-open_prices = {date.strftime("%Y-%m-%d"): str(row["Open"].item()) for date, row in data.iterrows()}
-volume_data = {date.strftime("%Y-%m-%d"): str(row["Volume"].item()) for date, row in data.iterrows()}
+close_prices = {date.strftime("%Y-%m-%d"): str(row["Close"].item()) for date, row in date.iterrows()}
+high_prices = {date.strftime("%Y-%m-%d"): str(row["High"].item()) for date, row in date.iterrows()}
+low_prices = {date.strftime("%Y-%m-%d"): str(row["Low"].item()) for date, row in date.iterrows()}
+open_prices = {date.strftime("%Y-%m-%d"): str(row["Open"].item()) for date, row in date.iterrows()}
+volume_data = {date.strftime("%Y-%m-%d"): str(row["Volume"].item()) for date, row in date.iterrows()}
 
 # Convert dictionary data into a format usable for the graph
 # Converti i dati del dizionario in un formato utilizzabile per il grafico
@@ -35,7 +35,7 @@ company_name = ticker_info.info.get('longName', ticker)  # use ticker as fallbac
 # Create a figure with two subplots (price and volume)
 # Crea una figura con due sottografici (prezzo e volume)
 fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(15, 10), gridspec_kw={'height_ratios': [3, 1]})
-fig.suptitle(f'{company_name} ({ticker}) Stock Price - {nAnni} {"Year" if nAnni == 1 else "Years"}', fontsize=16)
+fig.suptitle(f'{company_name} ({ticker}) Stock Price - {numYears} {"Year" if numYears == 1 else "Years"}', fontsize=16)
 plt.get_current_fig_manager().set_window_title(f'{company_name} - Market Tracker')
 
 # Plot the closing price
