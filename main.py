@@ -6,9 +6,9 @@ import numpy as np
 import yfinance as yf
 
 
-numYears = 5
+numYears = 1
 period = str(numYears) + "y"
-ticker = "GOOG"
+ticker = "HOOD"
 date = yf.download(ticker, period=period)
 
 # Creation of associative vectors with correct values
