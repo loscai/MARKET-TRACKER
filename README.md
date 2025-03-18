@@ -19,6 +19,7 @@ pip install yfinance
 pip install numpy
 ```
 
+
 ## 🚀 Usage
 
 ### 🔧 Configuration
